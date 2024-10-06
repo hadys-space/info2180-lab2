@@ -1,0 +1,112 @@
+*{
+    font: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue', Arial, "Nato Sans", sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100hv;
+}
+
+.sidebar{
+    display: block;
+    grid-column: 2; 
+    grid-row: 2;
+    padding: 20px;
+}
+
+.socialmedia h3{
+    color: #48BB78;
+}
+
+.archive h3{
+    color: #48BB78;
+}
+
+.about {
+    background: #E2E8F0;
+    padding: 20px;
+}
+
+.about h3{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.socialmedia ul, li, a{
+    color: #4299E1;
+}
+
+.archive ul, li, a{
+    color: #4299E1;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    align-items: center;
+    justify-content: center;
+    background-color: #63B3ED;
+    padding: 20px;
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+}
+
+.header p{
+    color: #FFFFFF; 
+}
+
+.blog-post{
+    grid-column: 1;
+    padding: 20px;
+}
+
+.blog-post h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.blog-post p{
+    color: #718096;
+}
+img.float-right {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+img.float-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+footer {
+    background-color: #2C5282;
+    padding: 20px;
+    grid-column:1/ -1;
+}
+
+footer p{
+    color:#FFFFFF;
+}
+
